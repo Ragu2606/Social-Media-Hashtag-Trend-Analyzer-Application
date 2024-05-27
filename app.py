@@ -3,8 +3,8 @@ import boto3
 import uuid
 
 # Initialize DynamoDB client with AWS credentials
-aws_access_key_id = 'AKIA3FLDZSTKW7BKCYNG'
-aws_secret_access_key = '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'
+aws_access_key_id = 'Aws_access_key'
+aws_secret_access_key = 'Aws_secret_key'
 region_name = 'ap-south-1'
 
 dynamodb = boto3.resource(
